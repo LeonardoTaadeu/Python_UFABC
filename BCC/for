@@ -1,0 +1,6 @@
+num = int(input())
+result = 0
+for inicio in range(0,num,1):
+  soma = float(input())
+  result = result+soma
+print("Total: %.2f" % result)
