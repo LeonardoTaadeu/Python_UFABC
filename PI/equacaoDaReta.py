@@ -1,8 +1,8 @@
 def coeficienteAngular(x1, x2, y1, y2):
     return (y1 - y2) / (x1 - x2)
 
-def coeficienteLinear(y, coeficienteAngular, x):
-    return y - (coeficienteAngular) * x
+def coeficienteLinear(y, m, x):
+    return y - m * x
 
 x1 = int(input("X1: "))
 x2 = int(input("X2: "))
