@@ -1,7 +1,7 @@
-def conta_par(lista):
-    numerosPares = 0
+def conta_igual(listaA, listaB):
+    contador = 0
 
-    for numeros in lista:
-        if numeros % 2 == 0:
-            numerosPares += 1
-        return numerosPares
+    for i in range(len(listaA)):
+        if listaA[i] == listaB[i]:
+            contador += 1
+        return contador
